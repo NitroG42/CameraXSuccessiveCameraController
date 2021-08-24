@@ -1,5 +1,7 @@
 # Using CameraController in two successives screen
 
+Issue : https://issuetracker.google.com/issues/197539358
+
 ## Context
 
 An app that display the camera on Screen A, then going to Screen B also displays the camera. In this sample, authorize the camera, then
