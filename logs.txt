@@ -1,0 +1,202 @@
+2021-08-24 18:16:11.668 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [androidx.camera.core.ImageCapture-8625f343-f47d-4b1d-81a0-108f885303e5204996789, androidx.camera.core.Preview-bbaf9ad1-aa2c-46a2-a087-4b20ccc8575f201964] for camera: 0
+2021-08-24 18:16:11.669 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/PreviewView: Surface requested by Preview.
+2021-08-24 18:16:11.669 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Resetting Capture Session
+2021-08-24 18:16:11.670 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Releasing session in state INITIALIZED
+2021-08-24 18:16:11.670 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Attempting to force open the camera.
+2021-08-24 18:16:11.671 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateRegistry: tryOpenCamera(Camera@cc50ded[id=0]) [Available Cameras: 1, Already Open: false (Previous state: null)] --> SUCCESS
+2021-08-24 18:16:11.672 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateRegistry: Recalculating open cameras:
+    Camera                                       State
+    -------------------------------------------------------------------
+    Camera@d9f457a[id=1]                         UNKNOWN
+    Camera@7e27507[id=2]                         UNKNOWN
+    Camera@cc50ded[id=0]                         OPENING
+    -------------------------------------------------------------------
+    Open count: 1 (Max allowed: 1)
+2021-08-24 18:16:11.672 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Opening camera.
+2021-08-24 18:16:11.672 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Transitioning camera internal state: INITIALIZED --> OPENING
+2021-08-24 18:16:11.673 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateMachine: New public camera state CameraState{type=OPENING, error=null} from OPENING and null
+2021-08-24 18:16:11.673 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateMachine: Publishing new public camera state CameraState{type=OPENING, error=null}
+2021-08-24 18:16:11.673 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: All use case: [androidx.camera.core.ImageAnalysis-c3b6b19e-89ea-4657-b9aa-240584b768ab84779850, androidx.camera.core.ImageCapture-8625f343-f47d-4b1d-81a0-108f885303e5204996789, androidx.camera.core.Preview-bbaf9ad1-aa2c-46a2-a087-4b20ccc8575f201964] for camera: 0
+2021-08-24 18:16:11.673 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/PreviewView: Preview transformation info updated. TransformationInfo{cropRect=Rect(0, 201 - 1600, 999), rotationDegrees=90, targetRotation=0}
+2021-08-24 18:16:11.673 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/PreviewTransform: Transformation info set: TransformationInfo{cropRect=Rect(0, 201 - 1600, 999), rotationDegrees=90, targetRotation=0} 1600x1200 false
+2021-08-24 18:16:11.684 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/SurfaceViewImpl: Wait for new Surface creation.
+2021-08-24 18:16:11.695 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Use case androidx.camera.core.Preview-bbaf9ad1-aa2c-46a2-a087-4b20ccc8575f201964 ACTIVE
+2021-08-24 18:16:11.695 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [androidx.camera.core.ImageCapture-8625f343-f47d-4b1d-81a0-108f885303e5204996789, androidx.camera.core.Preview-bbaf9ad1-aa2c-46a2-a087-4b20ccc8575f201964] for camera: 0
+2021-08-24 18:16:11.696 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/SurfaceViewImpl: Surface created.
+2021-08-24 18:16:11.696 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/SurfaceViewImpl: Surface changed. Size: 1600x1200
+2021-08-24 18:16:11.696 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/SurfaceViewImpl: Surface set on Preview.
+2021-08-24 18:16:11.697 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Use case androidx.camera.core.ImageCapture-8625f343-f47d-4b1d-81a0-108f885303e5204996789 ACTIVE
+2021-08-24 18:16:11.697 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [androidx.camera.core.ImageCapture-8625f343-f47d-4b1d-81a0-108f885303e5204996789, androidx.camera.core.Preview-bbaf9ad1-aa2c-46a2-a087-4b20ccc8575f201964] for camera: 0
+2021-08-24 18:16:11.699 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Use case androidx.camera.core.ImageAnalysis-c3b6b19e-89ea-4657-b9aa-240584b768ab84779850 INACTIVE
+2021-08-24 18:16:11.700 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [androidx.camera.core.ImageCapture-8625f343-f47d-4b1d-81a0-108f885303e5204996789, androidx.camera.core.Preview-bbaf9ad1-aa2c-46a2-a087-4b20ccc8575f201964] for camera: 0
+2021-08-24 18:16:11.702 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} CameraDevice.onOpened()
+2021-08-24 18:16:11.702 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Transitioning camera internal state: OPENING --> OPENED
+2021-08-24 18:16:11.703 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateRegistry: Recalculating open cameras:
+    Camera                                       State
+    -------------------------------------------------------------------
+    Camera@d9f457a[id=1]                         UNKNOWN
+    Camera@7e27507[id=2]                         UNKNOWN
+    Camera@cc50ded[id=0]                         OPEN
+    -------------------------------------------------------------------
+    Open count: 1 (Max allowed: 1)
+2021-08-24 18:16:11.703 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateMachine: New public camera state CameraState{type=OPEN, error=null} from OPEN and null
+2021-08-24 18:16:11.703 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateMachine: Publishing new public camera state CameraState{type=OPEN, error=null}
+2021-08-24 18:16:11.703 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: All use case: [androidx.camera.core.ImageAnalysis-c3b6b19e-89ea-4657-b9aa-240584b768ab84779850, androidx.camera.core.ImageCapture-8625f343-f47d-4b1d-81a0-108f885303e5204996789, androidx.camera.core.Preview-bbaf9ad1-aa2c-46a2-a087-4b20ccc8575f201964] for camera: 0
+2021-08-24 18:16:11.706 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [androidx.camera.core.ImageCapture-8625f343-f47d-4b1d-81a0-108f885303e5204996789, androidx.camera.core.Preview-bbaf9ad1-aa2c-46a2-a087-4b20ccc8575f201964] for camera: 0
+2021-08-24 18:16:11.708 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/SyncCaptureSessionBase: [androidx.camera.camera2.internal.SynchronizedCaptureSessionBaseImpl@8547605] getSurface...done
+2021-08-24 18:16:11.708 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CaptureSession: Opening capture session.
+2021-08-24 18:16:11.713 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: New surface in use[total_surfaces=3, used_surfaces=1](androidx.camera.core.impl.ImmediateSurface@dfd72fa}
+2021-08-24 18:16:11.713 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: use count+1, useCount=1 androidx.camera.core.impl.ImmediateSurface@dfd72fa
+2021-08-24 18:16:11.713 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: New surface in use[total_surfaces=3, used_surfaces=2](androidx.camera.core.impl.ImmediateSurface@c95d769}
+2021-08-24 18:16:11.713 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: use count+1, useCount=1 androidx.camera.core.impl.ImmediateSurface@c95d769
+2021-08-24 18:16:11.713 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: New surface in use[total_surfaces=3, used_surfaces=3](androidx.camera.core.SurfaceRequest$2@1ff51a2}
+2021-08-24 18:16:11.713 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: use count+1, useCount=1 androidx.camera.core.SurfaceRequest$2@1ff51a2
+2021-08-24 18:16:12.073 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CaptureSession: Attempting to send capture request onConfigured
+2021-08-24 18:16:12.073 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CaptureSession: Issuing request for session.
+2021-08-24 18:16:12.077 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CaptureSession: CameraCaptureSession.onConfigured() mState=OPENED
+2021-08-24 18:16:12.078 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CaptureSession: CameraCaptureSession.onReady() OPENED
+2021-08-24 18:16:12.456 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/StreamStateObserver: Update Preview stream state to STREAMING
+2021-08-24 18:16:12.513 11669-11685/com.nitro.cameraxsuccessivecameracontroller W/System: A resource failed to call close.
+2021-08-24 18:16:12.513 11669-11685/com.nitro.cameraxsuccessivecameracontroller W/System: A resource failed to call close.
+2021-08-24 18:16:18.255 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Use cases [androidx.camera.core.Preview-bbaf9ad1-aa2c-46a2-a087-4b20ccc8575f201964, androidx.camera.core.ImageCapture-8625f343-f47d-4b1d-81a0-108f885303e5204996789, androidx.camera.core.ImageAnalysis-c3b6b19e-89ea-4657-b9aa-240584b768ab84779850] now DETACHED for camera
+2021-08-24 18:16:18.255 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: All use case: [] for camera: 0
+2021-08-24 18:16:18.256 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Resetting Capture Session
+2021-08-24 18:16:18.257 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Releasing session in state OPENED
+2021-08-24 18:16:18.258 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [] for camera: 0
+2021-08-24 18:16:18.259 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [] for camera: 0
+2021-08-24 18:16:18.260 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Closing camera.
+2021-08-24 18:16:18.260 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Transitioning camera internal state: OPENED --> CLOSING
+2021-08-24 18:16:18.261 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateRegistry: Recalculating open cameras:
+    Camera                                       State
+    -------------------------------------------------------------------
+    Camera@d9f457a[id=1]                         UNKNOWN
+    Camera@7e27507[id=2]                         UNKNOWN
+    Camera@cc50ded[id=0]                         CLOSING
+    -------------------------------------------------------------------
+    Open count: 1 (Max allowed: 1)
+2021-08-24 18:16:18.261 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateMachine: New public camera state CameraState{type=CLOSING, error=null} from CLOSING and null
+2021-08-24 18:16:18.261 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateMachine: Publishing new public camera state CameraState{type=CLOSING, error=null}
+2021-08-24 18:16:18.262 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Resetting Capture Session
+2021-08-24 18:16:18.262 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Releasing session in state CLOSING
+2021-08-24 18:16:18.263 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CaptureSession: onSessionFinished()
+2021-08-24 18:16:18.286 11669-11669/com.nitro.cameraxsuccessivecameracontroller W/CameraController: Use cases not attached to camera.
+2021-08-24 18:16:18.296 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/CamLifecycleController: CameraProvider is not ready.
+2021-08-24 18:16:18.296 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/CameraController: Use cases not attached to camera.
+2021-08-24 18:16:18.301 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/CamLifecycleController: CameraProvider is not ready.
+2021-08-24 18:16:18.301 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/CameraController: Use cases not attached to camera.
+2021-08-24 18:16:18.312 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/CameraOrientationUtil: getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2021-08-24 18:16:18.313 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: Surface created[total_surfaces=4, used_surfaces=3](androidx.camera.core.SurfaceRequest$2@254a6be}
+2021-08-24 18:16:18.315 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/CameraOrientationUtil: getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2021-08-24 18:16:18.316 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: Surface created[total_surfaces=5, used_surfaces=3](androidx.camera.core.impl.ImmediateSurface@2179435}
+2021-08-24 18:16:18.318 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/CameraOrientationUtil: getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2021-08-24 18:16:18.318 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: Surface created[total_surfaces=6, used_surfaces=3](androidx.camera.core.impl.ImmediateSurface@67dd58}
+2021-08-24 18:16:18.339 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/StreamStateObserver: Update Preview stream state to IDLE
+2021-08-24 18:16:18.339 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/PreviewView: Surface requested by Preview.
+2021-08-24 18:16:18.346 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/PreviewView: Preview transformation info updated. TransformationInfo{cropRect=Rect(0, 201 - 1600, 999), rotationDegrees=90, targetRotation=0}
+2021-08-24 18:16:18.346 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/PreviewTransform: Transformation info set: TransformationInfo{cropRect=Rect(0, 201 - 1600, 999), rotationDegrees=90, targetRotation=0} 1600x1200 false
+2021-08-24 18:16:18.346 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/SurfaceViewImpl: Wait for new Surface creation.
+2021-08-24 18:16:18.356 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/SurfaceViewImpl: Surface created.
+2021-08-24 18:16:18.356 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/SurfaceViewImpl: Surface changed. Size: 1600x1200
+2021-08-24 18:16:18.356 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/SurfaceViewImpl: Surface set on Preview.
+2021-08-24 18:16:18.591 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [] for camera: 0
+2021-08-24 18:16:18.592 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Use case androidx.camera.core.ImageCapture-667375f2-3791-43b8-bcaa-6d55dad3d2c844970196 ACTIVE
+2021-08-24 18:16:18.592 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [] for camera: 0
+2021-08-24 18:16:18.593 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Use case androidx.camera.core.Preview-91427bbd-8b0b-465c-89b4-0ab21542650653970471 ACTIVE
+2021-08-24 18:16:18.593 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [] for camera: 0
+2021-08-24 18:16:18.594 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Use case androidx.camera.core.ImageCapture-667375f2-3791-43b8-bcaa-6d55dad3d2c844970196 ACTIVE
+2021-08-24 18:16:18.594 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [] for camera: 0
+2021-08-24 18:16:18.595 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Use case androidx.camera.core.ImageAnalysis-0216e524-fc7f-45c9-85b1-395a5b5b18a1251892349 INACTIVE
+2021-08-24 18:16:18.595 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [] for camera: 0
+2021-08-24 18:16:18.596 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [] for camera: 0
+2021-08-24 18:16:18.600 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Use cases [androidx.camera.core.Preview-91427bbd-8b0b-465c-89b4-0ab21542650653970471, androidx.camera.core.ImageCapture-667375f2-3791-43b8-bcaa-6d55dad3d2c844970196, androidx.camera.core.ImageAnalysis-0216e524-fc7f-45c9-85b1-395a5b5b18a1251892349] now ATTACHED
+2021-08-24 18:16:18.603 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: All use case: [androidx.camera.core.ImageAnalysis-0216e524-fc7f-45c9-85b1-395a5b5b18a1251892349, androidx.camera.core.Preview-91427bbd-8b0b-465c-89b4-0ab21542650653970471, androidx.camera.core.ImageCapture-667375f2-3791-43b8-bcaa-6d55dad3d2c844970196] for camera: 0
+2021-08-24 18:16:18.605 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [androidx.camera.core.Preview-91427bbd-8b0b-465c-89b4-0ab21542650653970471, androidx.camera.core.ImageCapture-667375f2-3791-43b8-bcaa-6d55dad3d2c844970196] for camera: 0
+2021-08-24 18:16:18.610 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Resetting Capture Session
+2021-08-24 18:16:18.611 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Releasing session in state CLOSING
+2021-08-24 18:16:18.611 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Transitioning camera internal state: CLOSING --> REOPENING
+2021-08-24 18:16:18.612 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateRegistry: Recalculating open cameras:
+    Camera                                       State
+    -------------------------------------------------------------------
+    Camera@d9f457a[id=1]                         UNKNOWN
+    Camera@7e27507[id=2]                         UNKNOWN
+    Camera@cc50ded[id=0]                         OPENING
+    -------------------------------------------------------------------
+    Open count: 1 (Max allowed: 1)
+2021-08-24 18:16:18.612 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateMachine: New public camera state CameraState{type=OPENING, error=null} from OPENING and null
+2021-08-24 18:16:18.612 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateMachine: Publishing new public camera state CameraState{type=OPENING, error=null}
+2021-08-24 18:16:18.612 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Use case androidx.camera.core.Preview-91427bbd-8b0b-465c-89b4-0ab21542650653970471 ACTIVE
+2021-08-24 18:16:18.613 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [androidx.camera.core.Preview-91427bbd-8b0b-465c-89b4-0ab21542650653970471, androidx.camera.core.ImageCapture-667375f2-3791-43b8-bcaa-6d55dad3d2c844970196] for camera: 0
+2021-08-24 18:16:18.614 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Use case androidx.camera.core.ImageCapture-667375f2-3791-43b8-bcaa-6d55dad3d2c844970196 ACTIVE
+2021-08-24 18:16:18.614 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [androidx.camera.core.Preview-91427bbd-8b0b-465c-89b4-0ab21542650653970471, androidx.camera.core.ImageCapture-667375f2-3791-43b8-bcaa-6d55dad3d2c844970196] for camera: 0
+2021-08-24 18:16:18.616 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Use case androidx.camera.core.ImageAnalysis-0216e524-fc7f-45c9-85b1-395a5b5b18a1251892349 INACTIVE
+2021-08-24 18:16:18.616 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [androidx.camera.core.Preview-91427bbd-8b0b-465c-89b4-0ab21542650653970471, androidx.camera.core.ImageCapture-667375f2-3791-43b8-bcaa-6d55dad3d2c844970196] for camera: 0
+2021-08-24 18:16:18.617 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: use count-1,  useCount=0 closed=false androidx.camera.core.impl.ImmediateSurface@dfd72fa
+2021-08-24 18:16:18.617 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: Surface no longer in use[total_surfaces=6, used_surfaces=2](androidx.camera.core.impl.ImmediateSurface@dfd72fa}
+2021-08-24 18:16:18.617 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: use count-1,  useCount=0 closed=false androidx.camera.core.impl.ImmediateSurface@c95d769
+2021-08-24 18:16:18.617 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: Surface no longer in use[total_surfaces=6, used_surfaces=1](androidx.camera.core.impl.ImmediateSurface@c95d769}
+2021-08-24 18:16:18.617 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: use count-1,  useCount=0 closed=false androidx.camera.core.SurfaceRequest$2@1ff51a2
+2021-08-24 18:16:18.618 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: Surface no longer in use[total_surfaces=6, used_surfaces=0](androidx.camera.core.SurfaceRequest$2@1ff51a2}
+2021-08-24 18:16:18.618 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} CameraDevice.onClosed()
+2021-08-24 18:16:18.619 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Attempting to open the camera.
+2021-08-24 18:16:18.619 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateRegistry: tryOpenCamera(Camera@cc50ded[id=0]) [Available Cameras: 0, Already Open: true (Previous state: OPENING)] --> SUCCESS
+2021-08-24 18:16:18.620 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateRegistry: Recalculating open cameras:
+    Camera                                       State
+    -------------------------------------------------------------------
+    Camera@d9f457a[id=1]                         UNKNOWN
+    Camera@7e27507[id=2]                         UNKNOWN
+    Camera@cc50ded[id=0]                         OPENING
+    -------------------------------------------------------------------
+    Open count: 1 (Max allowed: 1)
+2021-08-24 18:16:18.620 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Opening camera.
+2021-08-24 18:16:18.621 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Transitioning camera internal state: REOPENING --> OPENING
+2021-08-24 18:16:18.621 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateMachine: New public camera state CameraState{type=OPENING, error=null} from OPENING and null
+2021-08-24 18:16:18.622 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: All use case: [androidx.camera.core.ImageAnalysis-0216e524-fc7f-45c9-85b1-395a5b5b18a1251892349, androidx.camera.core.Preview-91427bbd-8b0b-465c-89b4-0ab21542650653970471, androidx.camera.core.ImageCapture-667375f2-3791-43b8-bcaa-6d55dad3d2c844970196] for camera: 0
+2021-08-24 18:16:18.625 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/SurfaceViewImpl: Surface destroyed.
+2021-08-24 18:16:18.625 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/SurfaceViewImpl: Surface invalidated androidx.camera.core.SurfaceRequest@34916d
+2021-08-24 18:16:18.625 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: surface closed,  useCount=0 closed=true androidx.camera.core.SurfaceRequest$2@1ff51a2
+2021-08-24 18:16:18.625 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: Surface terminated[total_surfaces=5, used_surfaces=0](androidx.camera.core.SurfaceRequest$2@1ff51a2}
+2021-08-24 18:16:18.627 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: surface closed,  useCount=0 closed=true androidx.camera.core.impl.ImmediateSurface@c95d769
+2021-08-24 18:16:18.627 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: Surface terminated[total_surfaces=4, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@c95d769}
+2021-08-24 18:16:18.627 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: surface closed,  useCount=0 closed=true androidx.camera.core.impl.ImmediateSurface@dfd72fa
+2021-08-24 18:16:18.627 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: Surface terminated[total_surfaces=3, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@dfd72fa}
+2021-08-24 18:16:18.628 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: surface closed,  useCount=0 closed=true androidx.camera.core.SurfaceRequest$2@254a6be
+2021-08-24 18:16:18.628 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: Surface terminated[total_surfaces=2, used_surfaces=0](androidx.camera.core.SurfaceRequest$2@254a6be}
+2021-08-24 18:16:18.629 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: surface closed,  useCount=0 closed=true androidx.camera.core.impl.ImmediateSurface@2179435
+2021-08-24 18:16:18.629 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: Surface terminated[total_surfaces=1, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@2179435}
+2021-08-24 18:16:18.629 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: surface closed,  useCount=0 closed=true androidx.camera.core.impl.ImmediateSurface@67dd58
+2021-08-24 18:16:18.629 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/DeferrableSurface: Surface terminated[total_surfaces=0, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@67dd58}
+2021-08-24 18:16:18.638 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Use cases [androidx.camera.core.Preview-91427bbd-8b0b-465c-89b4-0ab21542650653970471, androidx.camera.core.ImageCapture-667375f2-3791-43b8-bcaa-6d55dad3d2c844970196, androidx.camera.core.ImageAnalysis-0216e524-fc7f-45c9-85b1-395a5b5b18a1251892349] now DETACHED for camera
+2021-08-24 18:16:18.638 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: All use case: [] for camera: 0
+2021-08-24 18:16:18.638 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Resetting Capture Session
+2021-08-24 18:16:18.639 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Releasing session in state OPENING
+2021-08-24 18:16:18.639 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [] for camera: 0
+2021-08-24 18:16:18.639 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [] for camera: 0
+2021-08-24 18:16:18.640 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Closing camera.
+2021-08-24 18:16:18.640 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Transitioning camera internal state: OPENING --> CLOSING
+2021-08-24 18:16:18.641 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateRegistry: Recalculating open cameras:
+    Camera                                       State
+    -------------------------------------------------------------------
+    Camera@d9f457a[id=1]                         UNKNOWN
+    Camera@7e27507[id=2]                         UNKNOWN
+    Camera@cc50ded[id=0]                         CLOSING
+    -------------------------------------------------------------------
+    Open count: 1 (Max allowed: 1)
+2021-08-24 18:16:18.641 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateMachine: New public camera state CameraState{type=CLOSING, error=null} from CLOSING and null
+2021-08-24 18:16:18.641 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateMachine: Publishing new public camera state CameraState{type=CLOSING, error=null}
+2021-08-24 18:16:18.641 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} CameraDevice.onOpened()
+2021-08-24 18:16:18.642 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/SurfaceViewImpl: Safe to release surface.
+2021-08-24 18:16:18.648 11669-11669/com.nitro.cameraxsuccessivecameracontroller D/SurfaceViewImpl: Safe to release surface.
+2021-08-24 18:16:18.653 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [] for camera: 0
+2021-08-24 18:16:18.653 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/UseCaseAttachState: Active and attached use case: [] for camera: 0
+2021-08-24 18:16:18.654 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} CameraDevice.onClosed()
+2021-08-24 18:16:18.654 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/Camera2CameraImpl: {Camera@cc50ded[id=0]} Transitioning camera internal state: CLOSING --> INITIALIZED
+2021-08-24 18:16:18.655 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateRegistry: Recalculating open cameras:
+    Camera                                       State
+    -------------------------------------------------------------------
+    Camera@d9f457a[id=1]                         UNKNOWN
+    Camera@7e27507[id=2]                         UNKNOWN
+    Camera@cc50ded[id=0]                         CLOSED
+    -------------------------------------------------------------------
+    Open count: 0 (Max allowed: 1)
+2021-08-24 18:16:18.655 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateMachine: New public camera state CameraState{type=CLOSED, error=null} from CLOSED and null
+2021-08-24 18:16:18.655 11669-11699/com.nitro.cameraxsuccessivecameracontroller D/CameraStateMachine: Publishing new public camera state CameraState{type=CLOSED, error=null}
